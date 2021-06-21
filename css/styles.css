@@ -1,0 +1,65 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#7509b7, #3f37c0) repeat fixed ;
+}
+.container{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(0,0,0, .2);
+    border-radius: 10px;
+}
+
+.container .title{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #4cc9f0;
+    text-align: center;
+}
+
+.container .element label{
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container .element input{
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+
+.container .element input::placeholder{
+    font-family: "Font Awesome 5 Free", 'Ubuntu', sans-serif; 
+    font-weight: 600;
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.container .element input[type="submit"]{
+    background-color: #f72585; 
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.container .element input[type="submit"]:hover{
+    background-color: #f5569d; 
+}
